@@ -45,17 +45,17 @@ p {
   color: #000;
 }
 
-.nav-item {
-  padding: 15px;
-}
-
 .nav-link {
   font-size: 1.1rem;
   color: rgb(5, 5, 5);
   transition: all 0.6s ease;
 }
 
-.nav-link:hover {
+.nav-item {
+  padding: 15px;
+}
+
+.nav-item:hover {
   color: #000;
 }
 
@@ -143,6 +143,7 @@ p {
 
 .honey {
   padding: 0% 10% 7% 10%;
+  overflow-x: hidden;
 }
 
 .honey h1 {
@@ -179,7 +180,6 @@ p {
 
 .honey .btn:hover {
   background-color: rgba(255, 114, 39, 0.5);
-  color: #fc7932;
 }
 
 .youtube {
