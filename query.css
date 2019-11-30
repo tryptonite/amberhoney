@@ -1,0 +1,76 @@
+@media screen and (max-width:1650px){
+  .youtube{
+    margin-left:0;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  p {
+    line-height: 2rem;
+  }
+  h1 {
+    font-size: 2.25rem;
+  }
+  .about-text {
+    font-size: 0.8rem;
+    padding: 7%;
+    text-align: center;
+  }
+  .about-img {
+    display: flex;
+  }
+  .flower {
+    align-self: center;
+    max-width: 300px;
+    max-height: 650px;
+    height: auto;
+    width: auto;
+  }
+  .honey h1 {
+    font-size: 2.25rem;
+  }
+  .video{
+    text-align:center;
+  }
+  .youtube{
+    margin-top:3rem;
+    margin-left:0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .navbar-brand{
+    margin-right:0;
+    font-size:1.8rem;
+  }
+  .navbar-toggler{
+    margin-left:5px;
+  }
+  .navbar-collapse ul li{
+    padding:0;
+  }
+  .flower {
+    display: none;
+  }
+  .prod-sxn {
+    margin-bottom:5%;
+    margin-top: 10%;
+  }
+  .honey{
+    text-align:center;
+  }
+  .honeyext img{
+    margin-bottom:0;
+    width:225px;
+  }
+  .video{
+    display:none;
+  }
+  .contact-sxn h1{
+    margin-top:3rem;
+    margin-bottom:3rem;
+  }
+  .contact-sxn{
+    margin-bottom:3rem;
+  }
+}
