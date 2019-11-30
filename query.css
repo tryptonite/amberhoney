@@ -83,7 +83,8 @@
   }
   .honeyext img {
     margin-bottom: 0;
-    width: 225px;
+    width: 210px;
+    height: 150px;
   }
   .video {
     display: none;
@@ -99,18 +100,12 @@
 
 @media screen and (max-width: 400px) {
   .center {
-    position: absolute;
     top: 75px;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    justify-content: center;
-    align-self: center;
-    text-align: center;
-    height: 150px;
-    width: 100%;
-    margin: auto;
-    font-family: "Dancing Script", cursive;
-    color: rgba(235, 233, 205, 0.8);
+  }
+}
+
+@media screen and (max-height: 420px) {
+  .center {
+    top: 100px;
   }
 }
