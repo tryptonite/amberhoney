@@ -15,7 +15,10 @@ body {
 p {
   line-height: 2;
   font-size: 1.1rem;
+  font-family: "Roboto", sans-serif;
 }
+
+/* Header */
 
 .background {
   background: linear-gradient(rgba(187, 184, 155, 0.5), rgba(48, 53, 23, 0.75)),
@@ -33,11 +36,12 @@ p {
 
 .yellow {
   background-color: var(--primary-color);
-  color:#3b3b3b;
+  color: #3b3b3b;
 }
 
 .navbar-brand {
-  font-size: 2.25rem;
+  font-family: "Karla", sans-serif;
+  font-size: 2.3rem;
   color: #000;
 }
 
@@ -75,6 +79,8 @@ p {
   color: rgba(255, 255, 255, 0.8);
 }
 
+/* About */
+
 .about {
   padding: 5% 5% 5% 5%;
   height: auto;
@@ -110,6 +116,8 @@ p {
   text-align: center;
 }
 
+/* Products */
+
 .prod-sxn {
   text-align: center;
   margin-top: 5%;
@@ -119,21 +127,22 @@ p {
   padding: 5% 10%;
 }
 
-.honeyext{
-  margin:0 auto;
+/* Honey Ext. */
+
+.honeyext {
+  margin: 0 auto;
 }
 
-.honeyext img{
-  max-width:300px;
+.honeyext img {
+  max-width: 300px;
+  height: 200px;
   display: flex;
   justify-content: center;
-  width: 50%;
-  /* align-items: center; */
-  margin:0 auto 3rem auto;
+  margin: 0 auto;
 }
 
 .honey {
-  padding: 3% 10% 7% 10%;
+  padding: 0% 10% 7% 10%;
 }
 
 .honey h1 {
@@ -144,29 +153,40 @@ p {
   display: flex;
 }
 
-.honey .btn{
-  margin-top:4rem;
-  width:300px;
-  height:50px;
-  background-color:#fc7932;
-  color:#fff;
-  font-weight:bold;
-  letter-spacing:1.5px;
-  font-family: 'Roboto', sans-serif;
+.hny-subhead {
+  font-family: Alata, sans-serif;
+  font-size: 1.5rem;
 }
 
-.honey a{
-  text-decoration:none;
+.honey-button {
+  text-align: center;
 }
 
-.honey .btn:hover{
-  background-color: rgba(255,114,39,0.5);
+.honey .btn {
+  margin-top: 3rem;
+  width: 275px;
+  height: 50px;
+  background-color: #fc7932;
+  color: #fff;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  font-family: "Roboto", sans-serif;
 }
 
-.youtube{
-  margin-left:7rem;
-
+.honey a {
+  text-decoration: none;
 }
+
+.honey .btn:hover {
+  background-color: rgba(255, 114, 39, 0.5);
+  color: #fc7932;
+}
+
+.youtube {
+  margin-left: 7rem;
+}
+
+/* Contact Us */
 
 .contact-sxn h1 {
   justify-content: center;
@@ -184,7 +204,7 @@ p {
 .form {
   background-color: var(--primary-color);
   padding: 2% 5%;
-  border-radius:5px;
+  border-radius: 5px;
 }
 
 .form p {
@@ -202,21 +222,37 @@ p {
 
 .contact #subject {
   width: 100%;
+  border: none;
+}
+
+.message {
+  padding-left: 2rem;
 }
 
 #textarea {
   resize: none;
   width: 100%;
   border-radius: 4px;
+  border: none;
 }
 
-.btn {
-  display: flex;
+.send-button {
+  text-align: center;
+}
+
+/* redo buttons, don't work on Safari  */
+.contact-btn {
+  -webkit-justify-content: center;
+  -webkit-width: 50%;
+  -webkit-align-items: center;
+  -webkit-margin: 0.75rem 5rem;
   justify-content: center;
   width: 50%;
   align-items: center;
-  margin: 0.75rem auto;
+  margin: 0.75rem 4.5rem;
 }
+
+/* Footer */
 
 footer {
   background-color: #000;
@@ -230,10 +266,11 @@ footer .fab,
 .fas {
   padding: 10px 20px;
   font-size: 1.25rem;
-  color: #fff;
+  color: rgb(230, 230, 230);
 }
 
 footer p {
+  font-family: Alata, sans-serif;
   font-size: 1rem;
   vertical-align: center;
   position: relative;
@@ -242,4 +279,5 @@ footer p {
   bottom: 0;
   right: 0;
   margin: 0 auto;
+  color: rgb(230, 230, 230);
 }
